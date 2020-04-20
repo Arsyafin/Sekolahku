@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/green_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="GREEN"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:id="@+id/red_box"
+        android:layout_below="@id/green_box"
+        android:layout_toRightOf="@id/green_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:padding="10dp"
+        android:text="RED"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/blue_box"
+        android:layout_below="@id/red_box"
+        android:layout_toRightOf="@id/red_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:padding="10dp"
+        android:text="BLUE"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_below="@id/blue_box"
+        android:layout_toLeftOf="@id/blue_box"
+        android:id="@+id/red_box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:padding="10dp"
+        android:text="RED 2"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_below="@id/red_box2"
+        android:layout_toLeftOf="@id/red_box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:padding="10dp"
+        android:text="GREEN 2"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+</RelativeLayout>

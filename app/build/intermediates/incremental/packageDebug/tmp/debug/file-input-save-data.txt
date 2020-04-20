@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jan 07 15:40:11 ICT 2019
+0.baseType=DIRECTORY
+0.base=E\:\\Sahoot\\Training\\Asic41\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
